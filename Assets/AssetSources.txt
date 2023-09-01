@@ -1,0 +1,41 @@
+Sources:
+
+***************
+Audio Resources
+***************
+
+Sound Effects
+
+Unless noted specifically below, sound effects in the game came from:
+The Ultimate Sound FX Bundle (Sidearm Studios) https://assetstore.unity.com/packages/audio/sound-fx/ultimate-sound-fx-bundle-151756
+
+
+Small Dog Barking Sound (Ryding) https://freesound.org/people/Ryding/sounds/110134/
+Small Dog Barking Sound (Noctaro) https://freesound.org/people/noctaro/sounds/242414/
+Small Dog Barking Sound (MisterTood) https://freesound.org/people/MisterTood/sounds/9032/
+Small Dog Growl (nikorn69) https://freesound.org/people/nikorn69/sounds/195869/
+
+Music
+
+The theme song for the game "Skydiving" came from:
+The Ultimate Music Bundle (Sidearm Studios) https://assetstore.unity.com/packages/audio/music/ultimate-music-bundle-191497
+
+
+**************
+Graphic Assets
+**************
+
+Assets from the following packs were used:
+
+3D Models
+
+Polygon Town (Synty) https://assetstore.unity.com/packages/3d/environments/urban/polygon-town-pack-low-poly-3d-art-by-synty-121115
+Polygon City (Synty) https://assetstore.unity.com/packages/3d/environments/urban/polygon-city-low-poly-3d-art-by-synty-95214
+Polygon Shop (Synty) https://assetstore.unity.com/packages/3d/environments/urban/polygon-shops-pack-low-poly-3d-art-by-synty-199026
+Polygon Office (Synty) https://assetstore.unity.com/packages/3d/props/interior/polygon-office-low-poly-3d-art-by-synty-159492
+Polygon Construction (Synty) https://assetstore.unity.com/packages/3d/environments/industrial/polygon-construction-low-poly-3d-art-by-synty-168036
+Low Poly Animated Animals (polyperfect) https://assetstore.unity.com/packages/3d/characters/animals/low-poly-animated-animals-93089
+
+Particle Effects
+
+Polygon Arsenal (Archanor VFX) https://assetstore.unity.com/packages/vfx/particles/polygon-arsenal-109286

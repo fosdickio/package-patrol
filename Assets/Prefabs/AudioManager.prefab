@@ -1,0 +1,376 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &386152108341324765
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 386152108341324763}
+  - component: {fileID: 386152108341324764}
+  - component: {fileID: 386152108341324762}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: deleteOnSceneLoad
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &386152108341324763
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 386152108341324765}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &386152108341324764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 386152108341324765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79dbbd6b7e1a7dd429be4ec16828b021, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: ThemeMusic
+    clips:
+    - {fileID: 8300000, guid: e071a0a9230ac23459c70d6cf84fef64, type: 3}
+    volume: 0.15
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: StepsConcrete
+    clips:
+    - {fileID: 8300000, guid: 9bc129694648d1e449379656bc9e00f3, type: 3}
+    - {fileID: 8300000, guid: 8e4152e2eed156d4999b5f0c0848c454, type: 3}
+    - {fileID: 8300000, guid: 2719ef4d7fd1d8848b3023b5409d8dab, type: 3}
+    - {fileID: 8300000, guid: 3503e2028da944149b3bdaacc574fad2, type: 3}
+    volume: 0.6
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: ShootPackage
+    clips:
+    - {fileID: 8300000, guid: 520dfaa4b56aad549bab36facf3ef8ee, type: 3}
+    - {fileID: 8300000, guid: 73c31f827ebdd8348a4f0584ce69e595, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: EnterTruck
+    clips:
+    - {fileID: 8300000, guid: 9450e929f2db4e6408bbc6d25597c793, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: ExitTruck
+    clips:
+    - {fileID: 8300000, guid: 4b5fd2bb32bead141b781eb8f87569f4, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: TruckEngine
+    clips:
+    - {fileID: 8300000, guid: 9fface7abd4b1f34ab7c037f786244c5, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: PackageCycle
+    clips:
+    - {fileID: 8300000, guid: fad45089eec11a7419b2bdf990b52388, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PackageDelivered
+    clips:
+    - {fileID: 8300000, guid: 6f481f55ab0679d44a550f92ac629276, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PackagePickup
+    clips:
+    - {fileID: 8300000, guid: 7b86c462940e5c8439070a96dbd1a16f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: TruckCollision
+    clips:
+    - {fileID: 8300000, guid: 10a771a05f25005469c264412a8e0f28, type: 3}
+    - {fileID: 8300000, guid: b195b7441d5e98842afb76c369497785, type: 3}
+    - {fileID: 8300000, guid: 529ebd67253d8c046bbb9a3c93edf1d0, type: 3}
+    - {fileID: 8300000, guid: 82950d3cce810a64297c51d97fb444dc, type: 3}
+    volume: 0.2
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: TruckScreech
+    clips:
+    - {fileID: 8300000, guid: d86c56a84d49045469a49529a99ff754, type: 3}
+    - {fileID: 8300000, guid: 17d6daeae7c7010469edbac59ddb29dc, type: 3}
+    - {fileID: 8300000, guid: 88578548d44108844af5864cb1a20ca8, type: 3}
+    volume: 0.25
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: LoadTruck
+    clips:
+    - {fileID: 8300000, guid: cee8a4bd259920b4489563816c65c462, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: WeaponPickup
+    clips:
+    - {fileID: 8300000, guid: 686e02ee2fad40f4e99613fbb2418437, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: CollectablePickup
+    clips:
+    - {fileID: 8300000, guid: c8f09a0f595ae4b4b853665bc66f00d0, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: TruckDestroyed
+    clips:
+    - {fileID: 8300000, guid: 4793780d1eb3c9149bbda8a3d4d3df49, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PlayerDeath
+    clips:
+    - {fileID: 8300000, guid: 3eb76a6bc8b3a1c4cbeb8496b51e7e0a, type: 3}
+    volume: 0.15
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BigDogMaul
+    clips:
+    - {fileID: 8300000, guid: 9fbe76934444a13439ddee9c50f27dc7, type: 3}
+    volume: 0.15
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MediumDogMaul
+    clips:
+    - {fileID: 8300000, guid: 9fbe76934444a13439ddee9c50f27dc7, type: 3}
+    volume: 0.15
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SmallDogMaul
+    clips:
+    - {fileID: 8300000, guid: a340d62a768ece249b4dc60d61659ae8, type: 3}
+    volume: 0.15
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BigDogBark
+    clips:
+    - {fileID: 8300000, guid: b9409e1359f194449b3bc609ee461b45, type: 3}
+    - {fileID: 8300000, guid: 39c5639472cfaba41aeef3acc82fe716, type: 3}
+    volume: 0.15
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MediumDogBark
+    clips:
+    - {fileID: 8300000, guid: 936b43aa31303e24da620ac3f798669a, type: 3}
+    - {fileID: 8300000, guid: 0dd1f3b7f02b96b45aeff191415ccde6, type: 3}
+    volume: 0.15
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SmallDogBark
+    clips:
+    - {fileID: 8300000, guid: 85a498d94b3ef6e4892eba6ce81f383d, type: 3}
+    - {fileID: 8300000, guid: d300860069501a74380f9c3c6eccc5d9, type: 3}
+    volume: 0.15
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: BigDogWine
+    clips:
+    - {fileID: 8300000, guid: 5e16de127d19e6c448e7d336369361f1, type: 3}
+    volume: 0.15
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: MediumDogWine
+    clips:
+    - {fileID: 8300000, guid: facff8baa9ff60440a0bcbdc1d9d70e4, type: 3}
+    - {fileID: 8300000, guid: 776cae1401afcd3489764da85ccad85a, type: 3}
+    volume: 0.15
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: SmallDogWine
+    clips:
+    - {fileID: 8300000, guid: d62cf1ec2619cd046ad2c67716f4c5cb, type: 3}
+    volume: 0.15
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: WaterDefense
+    clips:
+    - {fileID: 8300000, guid: e7c5a6df151d45543912d96b8cf9a8ac, type: 3}
+    volume: 0.15
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: NPCScream
+    clips:
+    - {fileID: 8300000, guid: b1989c1c00d44af4ab1f8dd6c8faaa43, type: 3}
+    - {fileID: 8300000, guid: 09996f9f07fce91428f66988712212c5, type: 3}
+    - {fileID: 8300000, guid: 146c87d5a0d779c469c6698b71852a85, type: 3}
+    - {fileID: 8300000, guid: 35184f7f336c26b48be51e155d4c63e8, type: 3}
+    - {fileID: 8300000, guid: 22de55bf3a05a9148bbd3bfce07f6f62, type: 3}
+    - {fileID: 8300000, guid: eecfb6fe73f42f148a7d440452256068, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: ShopDoorChime
+    clips:
+    - {fileID: 8300000, guid: 6ac2fe47d4bffcc46a70dff39db9dc2a, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: CarHonk
+    clips:
+    - {fileID: 8300000, guid: 84bf4de343a39e448a5c050892862865, type: 3}
+    - {fileID: 8300000, guid: d573e34ea80400a488665a730e9bbf46, type: 3}
+    - {fileID: 8300000, guid: 5b09f54d4cffae640a8f257ca320e150, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: PackageCollision
+    clips:
+    - {fileID: 8300000, guid: ba928787bf347654393744c9dd1756a6, type: 3}
+    - {fileID: 8300000, guid: 39ff5e2a361ac2e4381b3cb15f9e7bd5, type: 3}
+    - {fileID: 8300000, guid: 17caa5d75a37931498c95ca4434ac012, type: 3}
+    - {fileID: 8300000, guid: cf5bd5a8f6356804b91b19e5e1f1fb50, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+--- !u!82 &386152108341324762
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 386152108341324765}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
