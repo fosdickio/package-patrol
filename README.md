@@ -4,6 +4,11 @@ Package Patrol is a package delivery game in which you run and drive around coll
 
 Beware of the thieves that are roaming the neighborhood who might try to steal the packages before their owners can collect them! You can combat package thieves by waiting with the package until it is collected or by hitting them with the car to keep them away.
 
+![Title Screen](img/img1.png)
+![Picking Up Packages at the Warehouse](img/img2.png)
+![Driving to the Delivery Location Fast](img/img3.png)
+![Getting Attacked by Dogs](img/img4.png)
+
 ## Requirements
 
 - Unity 2020.3.16f1 (LTS)
